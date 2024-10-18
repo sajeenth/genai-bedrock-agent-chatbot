@@ -31,7 +31,7 @@ def create_sql_engine():
         engine (sqlalchemy.engine.base.Engine): SQL Alchemy engine.
     """
     s3_staging_dir = Connections.athena_bucket_name
-    region = Connections.region_name
+    region = "us-east-1"
     database = Connections.text2sql_database
     # Construct the connection string
     conn_url = f"awsathena+rest://athena.{region}.amazonaws.com/{database}?s3_staging_dir=s3://{s3_staging_dir}"
