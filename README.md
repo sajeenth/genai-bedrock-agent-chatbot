@@ -1,6 +1,6 @@
 # GenAI ChatBot with Amazon Bedrock Agent
 
-## Table of Contents
+## Table o Contents
 
 - [Introduction](#Introduction)
 - [Prerequisites](#Prerequisites)
